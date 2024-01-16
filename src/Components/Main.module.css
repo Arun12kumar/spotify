@@ -1,0 +1,133 @@
+
+.container{
+    
+    background-color: rgb(20 20 20);
+}
+
+
+.item{
+    width: 178px;
+    height: 213px;
+    background-color: #1c1c1c;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:hover{
+    background-color: #353434;
+}
+
+.imageadd{
+    background-image: url("https://i.scdn.co/image/ab6765630000ba8ad25f84e9f3884ce237cc741c");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 147px;
+    height: 159px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 9px black;
+}
+.secondadd{
+    background-image: url("https://i.scdn.co/image/ab67706f000000021dac8691a7360a83d2ee8056");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 147px;
+    height: 159px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 9px black;
+}
+
+.secondadd img{
+    width: 100%;
+    opacity: 0;
+}
+
+.thirdadd{
+    background-image: url("https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 147px;
+    height: 159px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 9px black;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+    
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.container p{
+    padding-left: 39px;
+}
+.item p{
+    padding: 8px 5px;
+    font-size: 12px;
+}
+
+
+.mainfoot{
+    display: flex;
+    padding: 10px 10px 30px 10px;
+    gap: 70px;
+    border-bottom: 1px solid #353434;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.foot:nth-of-type(3){
+    flex-grow: 1;
+}
+.foot:nth-of-type(4){
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+.foot{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+}
+.foot ul{
+    font-size: 12px;
+    list-style: none;
+    
+}
+.foot ul li{
+    padding: 5px 0px;
+    font-weight: normal;
+}
+.social i{
+    font-size: 20px;
+}
+/* .lastfoot{
+    margin: 30px;
+} */
+.lastfoot ul{
+    display: flex;
+    color: #ffffff;
+    list-style: none;
+    gap: 20px;
+    font-size: 12px;
+    padding: 30px;
+
+}
+.lastfoot ul li:nth-of-type(6){
+    flex-grow: 1;
+    
+}

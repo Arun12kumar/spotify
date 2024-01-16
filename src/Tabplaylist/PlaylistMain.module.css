@@ -1,0 +1,57 @@
+
+
+.container{
+    background-color: rgb(20 20 20);
+    height: 130vh;
+}
+
+.item{
+    height: 39vh;
+    background-color: #ce8012;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+      
+}
+.item1{
+    height: 34vh;
+    background-image: linear-gradient(#ce8012, rgb(20 20 20));
+    opacity: 0.7;
+
+}
+.sub1{
+    width: 19%;
+    height: 30vh;
+    background-color: yellow;
+    background-image: url('https://i.scdn.co/image/ab67706f000000021dac8691a7360a83d2ee8056');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 18px black;
+    
+}
+.sub h1{
+    font-size: 80px;
+    color: #fff;
+}
+.sub h1,p{
+    padding-left: 20px;
+}
+.sub p{
+    font-size: 13px;
+}
+.sub img{
+    width: 5%;
+    border-radius: 50%;
+
+
+}
+.sub span{
+    display: flex;
+    align-items: center;
+    margin-left: 20px; 
+    margin-top: 10px; 
+}
+.sub span p{
+    margin-left: -14px;
+}
+

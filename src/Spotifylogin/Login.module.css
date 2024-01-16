@@ -1,0 +1,162 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.item1{
+    background-color: black;
+    height: 10vh;
+
+}
+
+.item2{
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+
+}
+
+.maincontent{
+    width: 36%;
+    background-color: black;
+    margin: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    border-radius: 10px;
+}
+
+.maincontent h2{
+    color: #fff;
+    font-size: 2vw;
+    padding: 50px 0px;
+}
+
+
+.itemcontent{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.itemcontent1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+.itemcontent1 input{
+    width: 70%;
+    height: 37px;
+    font-size: 17px;
+    background-color: #242424;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+.itemcontent1 input::placeholder{
+    padding-left: 6%;
+    color: #c9c9c9;
+    font-size: 1vw;
+}
+
+    
+.itemcontent1 label {
+    align-self: flex-start;
+    padding-left: 16%;
+    padding-bottom: 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+    
+.itemcontent button{
+    width: 70%;
+    height: 37px;
+    font-size: 1vw;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px ;
+    border: 1px solid gray;
+
+}
+.itemcontent button:hover{
+    border: 1px solid white;
+}
+
+
+.itemcontent:nth-of-type(5){
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.itemcontent:nth-of-type(8){
+    align-self: flex-start;
+    justify-self: center;
+    padding-left: 26px;
+}
+
+.itemcontent:nth-of-type(8) p{
+    font-size: 12px;
+    padding-top: 5px;
+}
+.itemcontent:nth-of-type(9) button{
+    border: none;
+    background-color: #3abf4e;
+    font-weight: bolder;
+    color: #000;
+    margin: 20px 0px;
+}
+
+.itemcontent:nth-of-type(9) button:hover{
+    width: 72%;
+    cursor: pointer;
+}
+
+.itemcontent:nth-of-type(10) {
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    
+}
+.itemcontent:nth-of-type(10) p{
+    padding: 20px 0px;
+    
+}
+.itemcontent:nth-of-type(10) p:hover{
+    padding: 20px 0px;
+    color: #3abf4e;
+    cursor: pointer;
+    
+}
+
+
+#toogle{
+    font-size: 27px;
+    color: #3abf4e;
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    
+}
+
+.item1 i{
+    font-size: 2vw;
+}
+
+.item1 p{
+    font-size: 1.5vw;
+    padding-left: 6px;
+}

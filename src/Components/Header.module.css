@@ -1,0 +1,42 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(20 20 20);
+    display: flex;
+    height: 7.2vh;
+    align-items: center;
+    gap: 17px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+.item:nth-of-type(2){
+    flex-grow: 1;
+}
+
+.item i{
+    color: #fff;
+}
+
+.item1 button{
+    padding: 5px 18px 5px 18px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.item2 button{
+    padding: 5px 18px 5px 18px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
